@@ -1,0 +1,51 @@
+''' COllective datatype in python
+List
+Tuple
+Set
+Dictionary'''
+#List > Collection of data , Ordered, its mutable, []
+mylist=["A","B",55,12.6,True]
+print(mylist)
+print(type(mylist))
+
+
+#Index value > prints individual data
+print(mylist[0])
+print(mylist[-2])
+print(mylist[4])
+
+
+
+#changeable
+
+#update
+mylist[-2]=False
+print(mylist)
+
+
+# Append
+mylist.append("k")
+print(mylist)
+
+
+# Insert
+mylist.insert(3,"F")
+print(mylist)
+
+#extend
+
+list1=[1,22.055,99]
+mylist.extend(list1)
+print(mylist)
+
+# Remove
+mylist.remove("B")
+print(mylist)
+
+# Delete
+del mylist[-2]
+print(mylist)
+
+del mylist
+print(mylist)
+
