@@ -1,0 +1,36 @@
+# Tuple > orderd collection of datatypes, ()
+
+mytuple=("A",5,True,66.33)
+print(mytuple)
+print(len(mytuple))
+
+# extend
+# mytuple.extend(list1)
+# print(mytuple)
+
+#update
+# mytuple[-1]=77
+# print(mytuple)
+
+
+#append
+# mytuple.append("k")
+# print(mytuple)
+
+#insert
+# mytuple.insert(3,"k")
+# print(mytuple)
+
+
+#remove
+# mytuple.remove("A")
+# print(mytuple)
+
+# Delete
+# del mytuple[0]
+# print(mytuple)
+
+del mytuple    # only this works
+print(mytuple)
+
+
